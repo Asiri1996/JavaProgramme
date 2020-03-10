@@ -1,7 +1,7 @@
 class UpandDowncasting{
     public static void main(String[] args)
     {
-       A a = new A();
+       A a = new B();
        a.print();
     }
 }
@@ -16,8 +16,8 @@ class A{
 
 class B extends A{
 
-    void pri()
+    void print()
     {
-        System.out.println("This is class A");
+        System.out.println("This is class B");
     }
 }
