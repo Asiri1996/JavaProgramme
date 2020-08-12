@@ -1,5 +1,6 @@
+package first;
 
-class First{
+class First {
     
     public static <E> void printArray(E[] InputArray) {
         for (E element : InputArray) {
